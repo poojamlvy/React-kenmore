@@ -1,0 +1,18 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 3px 10px;
+    color: white;
+    background-color: rgb(114, 201, 241);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    color:rgb(83, 2, 6);
+    font-weight: bolder;
+}

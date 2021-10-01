@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+
+}
+
+.container10 {
+    width: 600px;
+    height: 350px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+    margin-top: 90px;
+
+}
+
+.container10 h2{
+    text-align: center;
+}
+
+.first-row {
+    display: flex;
+}
+
+.owner {
+    width: 100%;
+    
+}
+
+.input-field {
+ border: 1px solid;
+ margin-right: 5px;
+
+}
+
+.input-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 6px;
+}
+
+.input-field1 input{
+    width: 33vw;
+    border: none;
+    outline: none;
+    padding: 6px;
+}
+
+.input-field1{
+    border: 1px solid;
+   
+}
+
+.input-field2{
+    border: 1px solid;
+   
+    margin-left: 13px;
+}
+
+.input-field2 input{
+    width: 5vw;
+    border: none;
+    outline: none;
+    padding: 6px;
+}
+
+ 
+
+  h5{
+      align-items: right;
+    
+  }
+
+ .selection {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .selection select{
+     padding: 10px 10px;
+     margin-right: 5px;
+ }
+
+ .confirm1{
+     background-color: blueviolet;
+     color: white;
+     text-align: center;
+     text-transform: uppercase;
+     text-decoration: none;
+     padding: 10px;
+     font-size: 18px;
+     transition: 0.5s;
+ }
+ .confirm1 a{
+     color: white;
+ }
+
+ .confirm1:hover {
+     background-color: dodgerblue;
+ }
